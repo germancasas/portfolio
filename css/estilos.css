@@ -94,12 +94,11 @@ p {
 
 #contacto footer .fa-github,
 #inicio footer .fa-github {
-    font-size: 30px;
-    color: white;
+    
 }
 
-#contacto footer .fa-linkedin-in,
-#inicio footer .fa-linkedin-in {
+footer .fa-linkedin-in,
+footer .fa-github {
     color: #ff4a49;
     background-color: white;
     font-size: 20px;
@@ -111,6 +110,8 @@ p {
     border-radius: 80px;
     margin: 0 8px;
 }
+
+
 
 #proyectos footer {
     color: #ff4a49;
@@ -289,8 +290,8 @@ p {
 
 #contacto,
 #inicio {
-    background-image: url("../images/Imagenes/fondo-proyectos.png");
-    background-size: contain;
+    background-image: url("../images/Imagenes/fondo-contacto.png");
+    background-size: cover;
     background-repeat: no-repeat;
 }
 
@@ -303,4 +304,7 @@ p {
     color: #e20000;
     font-size: 16px;
     border: 1px #e20000 solid;
+}
+input, textarea, .btn {
+    border-radius: 15px !important;
 }
