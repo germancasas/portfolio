@@ -1,7 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+/*@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');*/
 
 body {
     font-family: 'Montserrat', sans-serif;
+    
 }
 
 #contacto,
@@ -13,6 +14,15 @@ body {
 #proyectos {
     background-image: url("../images/Imagenes/fondo-proyectos.png");
     background-size: cover;
+}
+
+.nav-link {
+    color: #282828;
+}
+
+.nav-link.active {
+    border: 1px solid #E20000;
+    border-radius: 20px;
 }
 
 h1 {
@@ -128,6 +138,10 @@ p {
     margin: 0 8px;
 }
 
+.proyecto {
+    background-color: white;
+}
+
 .proyecto .proyecto h2 {
     font-size: 16px;
     text-transform: uppercase;
@@ -167,12 +181,79 @@ p {
     font-weight: 600px;
 }
 
-#sobre-mi{
-    
+.foto-perfil {
+    border-radius: 600px;
+    height: 300px;
 }
+
+#stack-tecnologico {
+    background: linear-gradient(to right, rgba(184, 37, 20, 1) 0%, rgba(214, 52, 30, 1) 47%, rgba(240, 47, 23, 1) 70%, rgba(240, 47, 23, 1) 100%);
+
+}
+
+#stack-tecnologico .titulo-stack h2 {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#stack-tecnologico .tecnologia h2 {
+    font-size: 24px;
+    color: white;
+}
+
+#stack-tecnologico .tecnologia h3 {
+    font-size: 14px;
+    color: black;
+    font-weight: 300px;
+}
+
+#stack-tecnologico .tecnologia {
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    height: 182px;
+}
+
+#stack-tecnologico .tecnologia img {
+    width: 60px;
+}
+
+#experiencia h2 {
+    font-size: 24px;
+    color: #370a6d;
+    font-weight: 400px;
+}
+
+#experiencia h3 {
+    color: #6a6a6a;
+    font-size: 18px;
+    font-weight: 600px;
+}
+
+#experiencia h4 {
+    font-size: 17px;
+    color: #370a6d;
+}
+
+#experiencia h5 {
+    color: #6a6a6a;
+    font-size: 14px;
+}
+
+#cursos h2 {
+    font-size: 24px;
+    color: #370a6d;
+}
+
+#cursos .sombra, #experiencia .sombra{
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+}
+
 @media (max-width: 750px) {}
 
-#contacto, #inicio {
+#contacto,
+#inicio {
     background-image: url("../images/Imagenes/fondo-proyectos.png");
     background-size: contain;
     background-repeat: no-repeat;

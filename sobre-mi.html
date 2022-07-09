@@ -6,18 +6,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sobre mi</title>
-    <link rel="stylesheet" href="css/fontawesone/css/all.min.css">
-    <link rel="stylesheet" href="css/fontawesome/css/fontawesone.min.css">
-    <link rel="stylesheet" href="css/bootstrap/css/bootstrap.min.css">
-    <script src="css/bootstrap/bootstrap-5.2.0-beta1-dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="css/fontawesome/fontawesome-free-6.1.1-web/css/all.min.css">
+    <link rel="stylesheet" href="css/fontawesome/fontawesome-free-6.1.1-web/css/fontawesome.min.css">
+    <!--<link rel="stylesheet" href="css/bootstrap/bootstrap-5.2.0-beta1-dist/css/bootstrap.min.css">-->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/estilos.css">
 </head>
 
-<body id="sobre-mi">
+<body id="sobre-mi" class="d-flex flex-column h-100">
     <header class="container">
-        <nav class="navbar navbar-expand-md navbar-dark bg-dark mb-4">
+        <nav class="navbar navbar-expand-md mb-4">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#">Top navbar</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
                     aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -25,38 +26,236 @@
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <ul class="navbar-nav me-auto mb-2 mb-md-0">
                         <li class="nav-item">
-                            <a class="nav-link" href="index.html">Inicio</a>
+                            <a class="nav-link px-4 py-1" href="index.html">Inicio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" href="sobre-mi.html">Sobre mi</a>
+                            <a class="nav-link px-4 py-1 active" href="sobre-mi.html">Sobre mi</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="proyectos.html">Proyectos</a>
+                            <a class="nav-link px-4 py-1" href="proyectos.html">Proyectos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="contacto.html">Contacto</a>
+                            <a class="nav-link px-4 py-1" href="contacto.html">Contacto</a>
                         </li>
-                    </ul>                        
+                    </ul>
                 </div>
             </div>
         </nav>
     </header>
-    <main class="container">
-        <div class="row">
-            <div class="col-12 pt-3 pb-5">
-                <h1>Sobre mi</h1>
+    <main>
+        <section class="container" id="Descripcion">
+            <div class="row">
+                <div class="col-12 col-sm-7">
+                    <h1 class="pb-5 pt-3">Sobre mi</h1>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum odio ab maxime fuga. Veritatis
+                        fugiat ab harum saepe ut sequi corporis! Eius eaque neque provident incidunt et ad illo iure?
+                    </p>
+                </div>
+                <div class="col-12 col-sm-5">
+                    <img src="images/Imagenes/german.jpg.jpeg" alt="German Agustin Casas" class="foto-perfil">
+                </div>
             </div>
+        </section>
+        <section id="stack-tecnologico">
+            <div class="container pb-5">
+                <div class="row">
+                    <div class="col-12 py-5 titulo-stack">
+                        <h2>
+                            Stack tecnologico
+                        </h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-2">
+                        <div class="tecnologia mb-4 pt-5">
+                            <h3>JAVASCRIPT</h3>
+                            <img src="images/Imagenes/javascript.jpeg" alt="javascript">
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <div class="tecnologia mb-4 pt-5">
+                            <h3>PHP</h3>
+                            <img src="images/Imagenes/php.jpg.jpg" alt="PHP">
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <div class="tecnologia mb-4 pt-5">
+                            <h3>HTML5</h3>
+                            <img src="images/Imagenes/html5.jpg.png" alt="html5">
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <div class="tecnologia mb-4 pt-5">
+                            <h3>REACT.JS</h3>
+                            <img src="images/Imagenes/react.js.jpg.png" alt="reactjs">
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <div class="tecnologia mb-4 pt-5">
+                            <h3>JQUERY</h3>
+                            <img src="images/Imagenes/jquery.jpg.jpg" alt="jquery">
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <div class="tecnologia mb-4 pt-5">
+                            <h3>BOOTSTRAP</h3>
+                            <img src="images/Imagenes/bootstrap.jpg.png" alt="bootstrap">
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <div class="tecnologia mb-4 pt-5">
+                            <h3>LARAVEL</h3>
+                            <img src="images/Imagenes/Laravel.jpg.png" alt="Laravel">
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <div class="tecnologia mb-4 pt-5">
+                            <h3>MYSQL</h3>
+                            <img src="images/Imagenes/mysql.jpg.png" alt="mysql">
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <div class="tecnologia mb-4 pt-5">
+                            <h3>CSS</h3>
+                            <img src="images/Imagenes/css.jpg.png" alt="css">
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <div class="tecnologia mb-4 pt-5">
+                            <h3>GIT</h3>
+                            <img src="images/Imagenes/Git.jpg.png" alt="Git">
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <div class="tecnologia mb-4 pt-5">
+                            <h3>APACHE</h3>
+                            <img src="images/Imagenes/apace.jpg.png" alt="apache">
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <div class="tecnologia mb-4 pt-5">
+                            <h3>MERCADOPAGO</h3>
+                            <img src="images/Imagenes/mercadopago.jpg.jpg" alt="mercadopago">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="experiencia">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 py-5">
+                        <h2>
+                            <i class="fa-solid fa-briefcase"></i> Experiencia laboral
+                        </h2>
+                    </div>
+                </div>
+                <div class="row sombra">
+                    <div class="col-2 d-none d-sm-block p-5">
+                        <img src="images/Imagenes/sin-logo.png" alt="sin logo" class="img-fluid gris">
+    
+                    </div>
+                    <div class="col-sm-10">
+                        <h3>Director Founder</h3>
+                        <h4>De PC suite</h4>
+                        <h5>periodo</h5>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus totam voluptas expedita
+                            modi
+                            mollitia? Odit, accusamus omnis libero voluptatem iusto possimus unde recusandae blanditiis
+                            doloremque ex delectus quaerat nihil debitis.
+    
+                        </p>
+                    </div>
+                    <div class="col-2 d-none d-sm-block p-5 mt-2">
+                        <img src="images/Imagenes/sin-logo.png" alt="sin logo" class="img-fluid gris">
+    
+                    </div>
+                    <div class="col-sm-10 mt-4">
+                        <h3>Director Founder</h3>
+                        <h4>De PC suite</h4>
+                        <h5>periodo</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci nobis recusandae nesciunt?
+                            Eos
+                            magnam ipsum sunt ratione? Optio labore vitae perferendis deleniti illum? Error corrupti
+                            reprehenderit ullam voluptate, quasi ea?
+    
+                        </p>
+                    </div>
+                </div>
+        </section>
+        <section id="cursos">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 py-5">
+                        <h2>
+                            <i class="fa-solid fa-briefcase"></i> Cursos
+                        </h2>
+                    </div>
+                </div>
+            <div class="row sombra">
+                <div class="col-2 d-none d-sm-block p-5">
+                    <img src="images/Imagenes/sin-logo.png" alt="sin logo" class="img-fluid gris">
+
+                </div>
+                <div class="col-sm-10">
+                    <h3>Director Founder</h3>
+                    <h4>De PC suite</h4>
+                    <h5>periodo</h5>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus totam voluptas expedita
+                        modi
+                        mollitia? Odit, accusamus omnis libero voluptatem iusto possimus unde recusandae blanditiis
+                        doloremque ex delectus quaerat nihil debitis.
+
+                    </p>
+                </div>
+                <div class="col-2 d-none d-sm-block p-5 mt-2">
+                    <img src="images/Imagenes/sin-logo.png" alt="sin logo" class="img-fluid gris">
+
+                </div>
+                <div class="col-sm-10 mt-4">
+                    <h3>Director Founder</h3>
+                    <h4>De PC suite</h4>
+                    <h5>periodo</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci nobis recusandae nesciunt?
+                        Eos
+                        magnam ipsum sunt ratione? Optio labore vitae perferendis deleniti illum? Error corrupti
+                        reprehenderit ullam voluptate, quasi ea?
+
+                    </p>
+                </div>
+            </div>
+            </div>
+        </section>
+        <section id="hobbies">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h2>
+                            Hobbies
+                        </h2>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="container mt-auto pb-4">
+        <div class="btn-whatsapp">
+            <i class="fa-brands fa-whatsapp"></i>
         </div>
         <div class="row">
-            <div class="col-12 col-sm-6">
-                <p>Te invito a que te contactes en viandome un mensaje o bien por whatsapp.</p>
+            <div class="col-3">
+                <a href="" target="_blank" title="Github"><i class="fab fa-github"></i></a>
+                <a href="" target="_blank" title="Linkedin"><i class="fab fa-linkedin-in"></i></a>
             </div>
-            
-    </main>
-    <footer class="container">
-
-
+            <div class="col-3">
+                Sponsor <a href="https://depcsuite.com">DePC Suite</a>
+            </div>
+            <div class="col-3">
+                <a href="mailto:german.agustincasas@gmail.com">german.agustincasas@gmail.com</a>
+            </div>
+        </div>
     </footer>
 
 </body>
+
 </html>
